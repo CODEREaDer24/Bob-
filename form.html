@@ -1,19 +1,15 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Diagnostic Form</title>
-</head>
+<html>
+<head><title>Vehicle Info</title></head>
 <body>
-  <h1>Diagnostic Form</h1>
-  <form>
-    <label for="code">Diagnostic Code:</label>
-    <input type="text" id="code" name="code"><br><br>
-    <label for="make">Vehicle Make:</label>
-    <input type="text" id="make" name="make"><br><br>
-    <label for="model">Vehicle Model:</label>
-    <input type="text" id="model" name="model"><br><br>
-    <input type="submit" value="Generate Report">
+  <h2>Enter Vehicle Details</h2>
+  <form action="urgency.html">
+    <label>Name:</label><input type="text" name="name"><br>
+    <label>Vehicle:</label><input type="text" name="vehicle"><br>
+    <label>OBD2 Code:</label><input type="text" name="code"><br>
+    <label>Email:</label><input type="email" name="email"><br>
+    <button type="submit">Next</button>
   </form>
 </body>
 </html>
